@@ -1,0 +1,55 @@
+
+    ANDROIDS!
+    ---------
+
+    The year is 2089.  Humans have merged with machines to become the
+    ultimate power of the known universe:  ANDROIDS!  The Androids stay in
+    fighting trim by playing a game in which "prizes" of different values
+    appear at random at various locations within an enclosed playing area.
+    The object of the game is to accumulate as many points as possible,
+    both by beating your opponents to the prizes, and by "ramming" your
+    opponents to take their points away.  You may become invisible at any
+    time to avoid pursuit or to ambush your opponents.  Special
+    high-voltage obstacles litter the playfield, and the border is made of
+    duodenum alloy... points are deducted for colliding with any of these.
+    "Top-Three" listings include Total Points and Points Per Hour.
+
+    Androids! was the first real-time multi-player ANSI-graphics game
+    developed for use with The Major BBS.  
+    
+    Each player is represented by a letter (or sometimes a question mark) 
+    that moves around under that player's control, picking up "prizes" 
+    (represented by digits, question marks, or diamonds), and trying to 
+    "ram" the letters representing the other players.
+
+    Running over a prize adds that prize's value to your score, and makes
+    the prize disappear.  Similarly, when you ram into another player,
+    points are subtracted from that player's score and added to yours
+    (assuming the other player has any points to give you), and the other
+    player is sometimes teleported to a random new location.  Each time you
+    collide with a wall or any of the obstacles in the playfield, you lose
+    points.
+
+    If your system-type is "IBM PC or compatible", then "IBM extended
+    character set graphics" are used to display the playfield.  Otherwise,
+    simple @-signs are used, although they may appear in different colors
+    if your system has color-display capability.
+
+    Upon entering the game, you're given this prompt:
+
+     Enter 'P' to play, 'T' for Top-Three, 'D' for details, or 'X' to exit:
+
+    If 'P' is selected, then the screen clears and the playfield is drawn.
+    If your cursor-movement keys generate ANSI output, you can use them to
+    move around.  This works under standard PC comm programs such as
+    ProComm and Telix.  Otherwise, use the diamond-shaped set of keys I, J,
+    K, and M:  I means "move up", J is "move left", K is "move right", and
+    M is "move down".  Press the space bar to become invisible.  Press  
+    ENTER at any time to interrupt play.
+
+    Top-Three listings are maintained in two categories:  total points, and
+    points-per-hour.  This is because total points achieved can be
+    arbitrarily high, if a user is willing to stay on long enough.  So in a
+    sense, a top rating in points-per-hour is a better indicator of game
+    skill, whereas total points measures perseverance.
+

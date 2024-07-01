@@ -1,0 +1,26 @@
+; ELWAND.MDF
+
+Module Name: Androids
+
+Developer: Elwynor Technologies
+
+Requires:
+Replaces:
+
+Install:
+
+Online user manual: ELWAND.USR
+
+DLLs: ELWAND
+MSGs: ELWAND
+
+Cleanup:
+
+Event-1:
+Event-2:
+Event-3:
+Event-4:
+
+Add-On Utility:
+
+I Need:

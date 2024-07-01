@@ -1,0 +1,31 @@
+/*  Message-number definitions derived from "ELWAND.MSG"  */
+
+#define RAMPTS      1
+#define BONPTS      2
+#define PTSDED      3
+#define BDRTB1      4
+#define BDRTB2      5
+#define BDRTB3      6
+#define BDRTB4      7
+#define BDRTB5      8
+#define BDRTB6      9
+#define BDRTB7     10
+#define BCKGND4    12
+#define ONEMOM     13
+#define PYLIST2    14
+#define INTRO3     15
+#define INSTRS     16
+#define P2PLAY2    17
+#define DETAILS3   18
+#define TOPTHR1    19
+#define TOPTHR2    20
+#define TTFMT2     21
+#define PTTPMT2    22
+#define NOANSI     23
+#define S2SMAL     24
+#define S2SHRT     25
+#define NOGOOD     26
+#define TOMANY     27
+#define HOLDON2    28
+#define JIRPTD     29
+#define TOOSLO     30

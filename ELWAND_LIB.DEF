@@ -1,0 +1,6 @@
+; Filename: ELWAND_LIB.DEF
+LIBRARY ELWAND.DLL
+; *** Visual Studio 2019 EXPORT ALIASES ONLY ***
+; Androids - Copyright (c) 2023 Elwynor Technologies
+EXPORTS
+    init__elwand=_init__elwand	@1

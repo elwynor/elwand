@@ -1,0 +1,261 @@
+ 
+LEVEL4 {Elwynor Technologies: Androids}
+
+ This parameter controls the number of points transferred
+ from the "rammee" to the "rammer" whenever one Android
+ rams another (if the rammee has any points).
+
+ A value of 1000 here would mean that ramming your
+ opponents is the whole point of the game; players would
+ only pick up prizes as an afterthought.  A value of 10
+ gives ramming another player a higher value than any
+ normal prize, but not so high a value that the prizes
+ are ignored.
+
+RAMPTS {Number of points transferred upon ramming 10} N 0 1000
+
+ The number of points per ordinary prize is fixed.  You
+ can change the number of bonus points given to a player
+ for picking up a flashing diamond that appears from time
+ to time on the play field.
+
+BONPTS {Number of points for the diamond bonus 100} N 0 1000
+
+ You can change the penalty for hitting a wall or obstacle
+ to give the game a subtly different "feel."
+
+ A high value puts a premium on exactness and accuracy in
+ moving one's Android and discourages the use of keyboard
+ macros.  A low value permits more sloppiness on the part
+ of the players and tends to increase the average score.
+
+PTSDED {Number of points deducted for hitting obstacles 5} N 0 1000
+
+ Users calling in at lower baud rates may experience buffer
+ overflow due to lengthy ANSI sequences and the number of
+ players in the game.  To reduce the chance of buffer
+ overflow, you can control the maximum number of 300-baud
+ players admitted to the game.
+
+BDRTB1 {Maximum number of players, if any, at 300 baud 0} N 0 6
+
+ Users calling in at lower baud rates may experience buffer
+ overflow due to lengthy ANSI sequences and the number of
+ players in the game.  To reduce the chance of buffer
+ overflow, you can control the maximum number of 1200-baud
+ players admitted to the game.
+
+BDRTB2 {Maximum number of players, if any, at 1200 baud 2} N 0 6
+
+ Users calling in at lower baud rates may experience buffer
+ overflow due to lengthy ANSI sequences and the number of
+ players in the game.  To reduce the chance of buffer
+ overflow, you can control the maximum number of 2400-baud
+ players admitted to the game.
+
+BDRTB3 {Maximum number of players, if any, at 2400 baud 4} N 0 6
+
+ Users calling in at lower baud rates may experience buffer
+ overflow due to lengthy ANSI sequences and the number of
+ players in the game.  To reduce the chance of buffer
+ overflow, you can control the maximum number of 4800-baud
+ players admitted to the game.
+
+BDRTB4 {Maximum number of players, if any, at 4800 baud 6} N 0 6
+
+ Users calling in at lower baud rates may experience buffer
+ overflow due to lengthy ANSI sequences and the number of
+ players in the game.  To reduce the chance of buffer
+ overflow, you can control the maximum number of 9600-baud
+ players admitted to the game.
+
+BDRTB5 {Maximum number of players, if any, at 9600 baud 6} N 0 6
+
+ Users calling in at lower baud rates may experience buffer
+ overflow due to lengthy ANSI sequences and the number of
+ players in the game.  To reduce the chance of buffer
+ overflow, you can control the maximum number of 19200-baud
+ players admitted to the game.
+
+BDRTB6 {Maximum number of players, if any, at 19200 baud 6} N 0 6
+
+ Users calling in at lower baud rates may experience buffer
+ overflow due to lengthy ANSI sequences and the number of
+ players in the game.  To reduce the chance of buffer
+ overflow, you can control the maximum number of 38400-baud
+ players admitted to the game.
+
+BDRTB7 {Maximum number of players, if any, at 38400 baud 6} N 0 6
+
+ Androids game.
+
+LEVEL6 {Elwynor Technologies: Androids}
+
+ You can modify the playfield to include: different sizes
+ and shapes of obstacles; different initial distribution
+ of prizes; or the width of the playfield.  Make sure that
+ any blank cell can actually be reached from any other blank
+ cell, or the prizes will accumulate in areas that cannot
+ be reached (except by being rammed).
+
+BCKGND4 {[0m
+ษออออออออออออออออออป ษออออออออออออออออออออออออออออออออออออป
+บ      5          5บ๚บ         7 2   1    5    3          บ
+บ3 9 ฐฐ  ฐฐ 3ฐฐ    ศอผ  8   3               9     ÛÛ  7   บ
+บ     5          1         1         8   1    4     6     บ
+บ    ÛÛ  6    7    9  2        4 7      ษอปษออป 1         บ
+บ        ÛÛ        ษอป   5ษอออป     9   บ๚ศผ๚๚บ    4    6 บ
+บ   1   6    ÛÛ    บ๚ศป  ษผษอปศป4     1 บ๚๚ษออผ        ษออผ
+บ   9      28    7 บ๚ษผ  ศปศอผษผ        ศป๚บ   2    3  ศออป
+บ3   5  ษออออออออออผ๚บ 4  ศอออผ9  6  3   บ๚บ      6    5  บ
+บ       ศอออออป๚ษออออผ    1              บ๚ศอออป        8 บ
+บ 4      2   4บ๚บ        8 3       3     ศอออออผ 5     2  บ
+ศฑฑฑฑฑ 6     9บ๚บ81    7 ฒฒฒฒฒฒฒ 6   4 7    4       1     บ
+ษฑฑฑฑฑ        ศอผ         3   2          8        ฑฑ     6บ
+บ 1    8   7      9  6             7         6         2  บ
+ศอออออออออออออออออออ A N D R O I D S ! อออออออออออออออออออผ
+} T Androids! playfield definition
+
+
+ONEMOM {[0;1;5;35mOne moment please...[0;1;44;37m} T One moment please
+
+
+PYLIST2 {[40;32m
+   Letter  Player-ID                     Points  Pts/hr
+   ------  ----------------------------- ------- -------
+[44;37m} T Androids! on-screen player list header
+
+
+INTRO3 {[2J[0;1;33m[2;%dH** ANDROIDS! **[32m
+
+The year is 2089.  Humans have merged with machines to become the ultimate
+power of the known universe: Androids!  The Androids stay in fighting trim
+by playing a game in which "prizes" of different values appear at random at
+various locations within an enclosed playing area.  The object of the game
+is to accumulate as many points as possible, both by beating your opponents
+to the prizes, and by "ramming" your opponents to take their points away.
+You may become invisible at any time, to avoid pursuit or to ambush your
+opponents.  Special high-voltage obstacles litter the playfield, and the
+border is made of duodenum alloy... points are deducted for colliding with
+any of these.  Top-three listings include total points and points per hour.
+} T Introductory description of Androids!
+
+
+INSTRS {
+If your cursor-movement keys generate ANSI output, you can use them to move
+around.  This works under standard PC comm programs such as ProComm and
+Telix.  Otherwise, you can use the following keys:  "I" to move up, "J" to
+move left, "K" to move right, and "M" to move down.  Press <Spacebar> to become
+invisible.  Press <Return> at any time to interrupt play.
+} T Instructions on use of keys
+
+
+P2PLAY2 {
+Enter 'P' to play, 'T' for top-three, 'D' for details, or 'X' to exit: } T Main prompt when not playing game
+
+
+DETAILS3 {
+Androids! is the first real-time, multi-player, ANSI-graphics game developed
+for The Major BBS. Each player is represented by a letter that moves around
+with the cursor keys, picking up "prizes" and trying to "ram" the letters
+representing the other players.
+
+Running over a prize adds that prize's digit value to your score, and makes
+the prize re-materialize somewhere else at random on the playfield.
+When you ram into another player, %d points are subtracted from that player's
+score and added to yours (if the other player has any points).  Each time you
+collide into a wall or any of the obstacles in the playfield, you lose %d
+points.
+
+From time to time blinking diamond bonus prizes will appear, each worth %d
+bonus points.  (The bell sound is used both for this bonus and for lost
+points, so don't get them confused!)  A variety of special effects, such as
+mystery or invisible prizes and players or varying bonus distributions, change
+the underlying game parameters at one-minute intervals.
+
+This game creates huge amounts of interrupt overhead on the system, so avoid
+using keystroke "macros."  File uploads may also be affected during play.
+
+Enter 'P' to play, 'T' for top-three, or 'X' to exit: } T Details of game rules and design
+
+
+TOPTHR1 {[24;1H[0;1;32m
+   Top Three                                 TOTAL SCORE
+   -----------------------------------------------------
+} T Androids! top-three title lines (1)
+
+
+TOPTHR2 {
+   Top Three                             POINTS PER HOUR
+   -----------------------------------------------------
+} T Androids! top-three title lines (2)
+
+
+TTFMT2 {   %2d. %-29s  %9s  %7s
+} T Top-three output format
+
+
+PTTPMT2 {
+**  Only the top score for each player appears in each category  **
+
+Enter 'P' to play, 'D' for details, or 'X' to exit: } T Post-top-three display prompt
+
+
+NOANSI {
+Unfortunately, you do not have ANSI-display capability enabled, so it is not
+possible for you to play this game.  To enable ANSI, check your
+communications program terminal emulation settings for one labeled "ANSI-BBS"
+or "VT-100."  If your terminal program does not automatically sense ANSI, you
+may have to change your Account Display/Edit setting to ANSI ON.
+} T Androids! rebuff if not ANSI
+
+
+S2SMAL {
+Unfortunately, your screen is too narrow to display the playfield for this
+game.  You must be able to display at least %d characters per line.  If your
+terminal can display this many characters, you may have to change your Account
+Display/Edit setting to reflect this number.
+} T Androids! rebuff if screen too narrow
+
+
+S2SHRT {
+Unfortunately, your screen is too short for the playfield and other game
+information.  You must be able to display at least 24 lines.  If your terminal
+can display 24 lines, you may have to change your Account Display/Edit setting
+to reflect this number.
+} T Androids! rebuff if screen too short
+
+
+NOGOOD {
+Unfortunately, %ld baud is not fast enough to play this game.  The ANSI
+sequences can be quite lengthy and you may experience buffer overflow.
+Try calling back at a higher baud rate, if possible.
+} T Androids! rebuff if baud too slow
+
+
+TOMANY {
+Unfortunately, the game is full right now.  There can be no more than %d
+%ld-players a time.  Try again in a few minutes.
+} T Androids! rebuff if game full
+
+
+HOLDON2 {
+Someone else is trying to get sync'd up with the game just now.  For technical
+reasons, two players cannot do this at the same time.  Once the other user has
+finished, you will be able to play.
+
+Enter 'P' to play, 'T' for top-three, 'D' for details, or 'X' to exit: } T Hold on a moment for sync-up
+
+
+JIRPTD {[24;1H[0;1;32m
+Game interrupted!  Enter 'P' to return, or 'X' to exit: } T Androids! just interrupted message
+
+
+TOOSLO {[24;1H[24;1H[0;1;32m
+
+
+A buffer overflow has been detected, which means that your connection speed
+is too slow to keep up with the action.
+
+Enter 'P' to play again, or 'X' to exit to the Main Menu: } T Androids! echo/output buffer overflow
+
