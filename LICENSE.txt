@@ -180,14 +180,4 @@ IN NO EVENT UNLESS REQUIRED BY APPLICABLE LAW OR AGREED TO IN WRITING WILL ANY C
 17. Interpretation of Sections 15 and 16.
 If the disclaimer of warranty and limitation of liability provided above cannot be given local legal effect according to their terms, reviewing courts shall apply local law that most closely approximates an absolute waiver of all civil liability in connection with the Program, unless a warranty or assumption of liability accompanies a copy of the Program in return for a fee.
 
-18. Additional Terms for Contributors:
-1. By contributing to this project, you agree to assign all right, title, and interest, including all copyrights, in and to your contributions to Rick Hadsall and Elwynor Technologies.
-2. You grant Rick Hadsall and Elwynor Technologies a non-exclusive, royalty-free, worldwide license to use, reproduce, prepare derivative works of, publicly display, publicly perform, sublicense, and distribute your contributions.
-3. You represent that you have the legal right to make your contributions and that the contributions do not infringe any third-party rights.
-4. Rick Hadsall and Elwynor Technologies are not obligated to incorporate any contributions into the project.
-5. This project is licensed under the AGPL v3, and any derivative works must also be licensed under the AGPL v3.
-6. If you create an entirely new project (a fork) based on this work, it must also be licensed under the AGPL v3, you assign all right, title, and interest, including all copyrights, in and to your contributions to Rick Hadsall and Elwynor Technologies, and you must include these additional terms in your project's LICENSE file.
-
-By contributing to this project, you agree to these terms.
-
 END OF TERMS AND CONDITIONS

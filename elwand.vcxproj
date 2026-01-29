@@ -96,7 +96,7 @@
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>
-      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <GenerateDebugInformation>DebugFull</GenerateDebugInformation>
       <AdditionalLibraryDirectories>$(SolutionDir)lib\importlibs;$(SolutionDir)lib\wg32</AdditionalLibraryDirectories>
       <AdditionalDependencies>wgserver_lib.lib; galgsbl_lib.lib</AdditionalDependencies>
       <ModuleDefinitionFile>ELWAND_EXP.DEF</ModuleDefinitionFile>
